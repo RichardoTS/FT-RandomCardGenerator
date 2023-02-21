@@ -1,1 +1,22 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+/* * {
+  border: 1px dashed red;
+} */
+body {
+  background-color: rgb(1, 173, 1);
+}
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+#crdBody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#row1 {
+  height: 550px;
+  width: 370px;
+  background-color: white;
+}
