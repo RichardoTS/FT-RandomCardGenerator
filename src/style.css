@@ -24,9 +24,12 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+#crdBody {
+  justify-content: center;
+}
 #upperSuit {
-  padding: 10px;
-  font-size: larger;
+  display: flex;
+  justify-content: flex-start;
 }
 #middleNum {
   display: flex;
