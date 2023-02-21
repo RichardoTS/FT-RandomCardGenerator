@@ -30,13 +30,16 @@ body {
 #upperSuit {
   display: flex;
   justify-content: flex-start;
+  font-size: 100px;
 }
 #middleNum {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 200px;
 }
 #bottmSuit {
   display: flex;
   justify-content: flex-end;
+  font-size: 100px;
 }
