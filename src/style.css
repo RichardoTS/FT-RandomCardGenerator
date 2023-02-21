@@ -10,13 +10,30 @@ body {
   margin: 0 auto;
   justify-content: space-between;
 }
-#crdBody {
+/* #crdBody {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
+} */
 #row1 {
   height: 550px;
   width: 370px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#upperSuit {
+  padding: 10px;
+  font-size: larger;
+}
+#middleNum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bottmSuit {
+  display: flex;
+  justify-content: flex-end;
 }

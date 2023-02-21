@@ -11,12 +11,14 @@ window.onload = function() {
 
   console.log("Hello Rigo from the console!");
 };
-for (let suit = 1; suit <= 4; suit++) {
-  console.log("these are the suits" + suit);
+function getRandomInt() {
+  let randomNumber = Math.floor(Math.random() * 10) + 1;
+  return randomNumber;
 }
-for (let numbrs = 1; numbrs <= 10; numbrs++) {
-  console.log("these are the numbers " + numbrs);
-}
+console.log(getRandomInt());
+// for (let numbrs = 1; numbrs <= 10; numbrs++) {
+//   console.log("these are the numbers " + numbrs);
+// }
 /* 
     La página se refresca cada 10 segundos
 */
